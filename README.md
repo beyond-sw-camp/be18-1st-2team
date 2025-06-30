@@ -9,6 +9,9 @@
 
 ## 📝 프로젝트 기획서
 [프로젝트 기획서](docs/PlayerManagement_ProjectProposal.md)
+## 🗒️ 요구사항 명세서
+
+## 📊 테이블 정의서
 
 ## 🔧 기술 스택
 
