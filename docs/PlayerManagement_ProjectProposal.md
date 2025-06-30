@@ -87,6 +87,3 @@
 | 발표                | 7월 9일   | 최종 발표 진행                 |
 
 ---
-
-## 요구사항 명세서
-[요구사항 명세서](https://docs.google.com/spreadsheets/d/1qhkPlvUMm9yCUx77oIeDukqOrJNGM85g3CbTBZ34niw/edit?usp=sharing)
