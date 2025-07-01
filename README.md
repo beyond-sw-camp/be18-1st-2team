@@ -9,9 +9,12 @@
 
 ## 📝 프로젝트 기획서
 [프로젝트 기획서](docs/PlayerManagement_ProjectProposal.md)
+
 ## 🗒️ 요구사항 명세서
 [요구사항 명세서](https://docs.google.com/spreadsheets/d/1qhkPlvUMm9yCUx77oIeDukqOrJNGM85g3CbTBZ34niw/edit?usp=sharing)
+
 ## 📊 테이블 정의서
+[테이블 정의서](https://docs.google.com/spreadsheets/d/1i1YjMAy4Iu3BqBc75ecdnQN_umw1ZfKW3t4A4797FLM/edit?usp=sharing)
 
 ## 🔧 기술 스택
 
