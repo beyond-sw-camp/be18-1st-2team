@@ -16,6 +16,8 @@
 ## 📊 테이블 정의서
 [테이블 정의서](https://docs.google.com/spreadsheets/d/1i1YjMAy4Iu3BqBc75ecdnQN_umw1ZfKW3t4A4797FLM/edit?usp=sharing)
 
+## 🗺️ ER 다이어그램
+
 ## 🔧 기술 스택
 
 ## 🌟 주요 기능
