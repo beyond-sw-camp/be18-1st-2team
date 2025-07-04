@@ -56,7 +56,7 @@ CREATE TABLE `train` (
 );
 
 CREATE TABLE `game_record_detail` (
-	`game_detail_id`	INT	NOT NULL	COMMENT '선수 기록 ID',
+	`game_detail_id`	INT	NOT NULL	COMMENT '경기 기록 ID',
 	`player_id`	INT	NOT NULL	COMMENT '선수 ID',
 	`game_id`	INT	NOT NULL	COMMENT '경기 ID',
 	`season`	YEAR	NULL	COMMENT '시즌연도',
@@ -92,7 +92,7 @@ CREATE TABLE `team` (
 );
 
 CREATE TABLE `player_record` (
-	`player_record_id`	INT	NOT NULL	COMMENT '스탯 ID',
+	`player_record_id`	INT	NOT NULL	COMMENT '선수기록 ID',
 	`player_id`	INT	NOT NULL	COMMENT '선수 ID',
 	`season`	YEAR	NULL	COMMENT '시즌연도',
 	`era`	DECIMAL(3,2)	NULL	COMMENT '투수/평균자책점',
@@ -134,7 +134,7 @@ CREATE TABLE `game` (
 );
 
 CREATE TABLE `player_record_detail` (
-	`player_record_detail_id`	INT	NOT NULL	COMMENT '선수 기록 ID',
+	`player_record_detail_id`	INT	NOT NULL	COMMENT '선수 기록 상세정보ID',
 	`player_id`	INT	NOT NULL	COMMENT '선수 ID',
 	`season`	YEAR	NULL	COMMENT '시즌연도',
 	`hitter_g`	INT	NULL	COMMENT '타자/경기수',
