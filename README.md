@@ -14,7 +14,7 @@
 [요구사항 명세서](https://docs.google.com/spreadsheets/d/1qhkPlvUMm9yCUx77oIeDukqOrJNGM85g3CbTBZ34niw/edit?usp=sharing)
 
 ## 📊 테이블 정의서
-[테이블 정의서](https://docs.google.com/spreadsheets/d/1i1YjMAy4Iu3BqBc75ecdnQN_umw1ZfKW3t4A4797FLM/edit?usp=sharing)
+[테이블 정의서](https://docs.google.com/spreadsheets/d/1Q1egMS5cPVRtyZelnnXaTjeVe6Mj0uGjum8gsACMbF0/edit?usp=sharing)
 
 ## 🗺️ ER 다이어그램
 
