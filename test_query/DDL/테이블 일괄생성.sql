@@ -1,10 +1,13 @@
-﻿CREATE TABLE `staff` (
-	`staff_id`	INT	NOT NULL,
+CREATE TABLE `staff` (
+	`staff_id`	INT	NOT NULL AUTO_INCREMENT COMMENT '스태프 id',
 	`team_id`	INT	NOT NULL,
 	`role`	VARCHAR(20)	NULL,
 	`staff_name`	VARCHAR(20)	NULL,
 	`phone`	CHAR(16)	NULL,
-	`career`	CHAR(10)	NULL
+	`career`	CHAR(10)	NULL,
+	`hire_date`	CHAR(10)	NULL,
+	`resignation_date`	CHAR(10)	NULL,
+    PRIMARY KEY (`staff_id`) -- 이 줄을 추가하여 staff_id를 PRIMARY KEY로 지정
 );
 
 CREATE TABLE `permission` (
@@ -32,14 +35,15 @@ CREATE TABLE `contract` (
 );
 
 CREATE TABLE `team_record` (
-	`team_record_id`	INT	NOT NULL	COMMENT '팀 성적 ID',
+	`team_record_id`	INT	NOT NULL	AUTO_INCREMENT COMMENT '팀 성적 ID',
 	`team_id`	INT	NOT NULL	COMMENT '팀 ID',
 	`season`	YEAR	NULL	COMMENT '시즌',
 	`game_count`	INT	NULL	COMMENT '경기수',
 	`win_count`	INT	NULL	COMMENT '승리수',
 	`draw_count`	INT	NULL	COMMENT '무승부수',
 	`lose_count`	INT	NULL	COMMENT '패배수',
-	`winning_per`	DECIMAL(4,3)	NULL	COMMENT '승률'
+	`winning_per`	DECIMAL(4,3)	NULL	COMMENT '승률',
+    PRIMARY KEY (`team_record_id`)
 );
 
 CREATE TABLE `position` (
@@ -87,7 +91,7 @@ CREATE TABLE `team` (
 	`team_id`	INT	NOT NULL	COMMENT '팀 ID',
 	`team_name`	VARCHAR(20)	NOT NULL	COMMENT '팀명',
 	`region`	VARCHAR(20)	NULL	COMMENT '연고지',
-	`found_date`	DATE	NULL	COMMENT '창단일',
+	`found_year`	YEAR	NULL	COMMENT '창단일',
 	`stadium`	VARCHAR(20)	NULL	COMMENT '홈구장'
 );
 
