@@ -1,3 +1,6 @@
+-- train_id를 AUTO_INCREMENT로 설정
+ALTER TABLE train MODIFY train_id INT AUTO_INCREMENT;
+
 -- 훈련 정보 인서트 문
 INSERT INTO train (player_id, date, location, content) 
 VALUES 
