@@ -68,7 +68,7 @@ CREATE TABLE `player` (
 
 -- contract 테이블 (계약)
 CREATE TABLE `contract` (
-  `contract_id` INT NOT NULL COMMENT '계약ID',
+  `contract_id` INT NOT NULL AUTO_INCREMENT COMMENT '계약ID',
   `payment` BIGINT COMMENT '계약금',
   `year_salary` BIGINT COMMENT '연봉',
   `contract_start` DATE COMMENT '계약시작일',
@@ -82,7 +82,7 @@ CREATE TABLE `contract` (
 
 -- train 테이블 (훈련)
 CREATE TABLE `train` (
-  `train_id` INT NOT NULL COMMENT '훈련 ID',
+  `train_id` INT NOT NULL AUTO_INCREMENT COMMENT '훈련 ID',
   `player_id` INT NOT NULL COMMENT '선수 ID',
   `date` DATE COMMENT '훈련일자',
   `location` VARCHAR(20) COMMENT '훈련장소',
@@ -101,7 +101,7 @@ CREATE TABLE `game` (
   `win` INT COMMENT '승리팀 ID (NULL: 전, 0: 무승부)',
   `lose` INT COMMENT '패배팀 ID',
   `home_score` INT COMMENT '홈팀 점수',
-  `lose_score` INT COMMENT '원정팀 점수',
+  `away_score` INT COMMENT '원정팀 점수',
   `stadium` VARCHAR(20) COMMENT '경기장',
   PRIMARY KEY (`game_id`),
   CONSTRAINT `FK_game_home` FOREIGN KEY (`home`) REFERENCES `team` (`team_id`),
@@ -124,14 +124,12 @@ CREATE TABLE `game_record_detail` (
   `player_id` INT NOT NULL COMMENT '선수 ID',
   `game_id` INT NOT NULL COMMENT '경기 ID',
   `season` YEAR COMMENT '시즌연도',
-  `hitter_g` INT COMMENT '타자/경기수',
   `ab` INT COMMENT '타수',
   `hit` INT COMMENT '안타',
   `hr` INT COMMENT '홈런',
   `rbi` INT COMMENT '타점',
   `hitter_so` INT COMMENT '삼진',
   `hitter_bb` INT COMMENT '볼넷',
-  `pitcher_g` INT COMMENT '투수/경기수',
   `ip` DECIMAL(2,1) COMMENT '이닝',
   `er` INT COMMENT '자책점',
   `pitcher_h` INT COMMENT '피안타',
