@@ -1,4 +1,4 @@
--- contract 테이블 player_id 외래키 추가
+-- contract 테이블 player_id 외래키 추가 
 ALTER TABLE `contract`
 ADD CONSTRAINT `FK_ct_player_id`
 FOREIGN KEY (`player_id`) REFERENCES `player`(`player_id`);
