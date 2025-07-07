@@ -1,0 +1,16 @@
+INSERT INTO `user` (`Key`, `name`, `password`, `email`, `permission_id`, `team_id`) VALUES
+(1, '홍길동', 'password123!', 'hong.gd@example.com', 1, 1),
+(2, '김철수', 'mysecretpass', 'kim.cs@example.com', 1, 1),
+(3, '이영희', 'secure_pass', 'lee.yh@example.com', 2, 2),
+(4, '박지성', 'soccerking', 'park.js@example.com', 1, 2),
+(5, '손흥민', 'heungmin7', 'son.hm@example.com', 2, 3),
+(6, '류현진', 'monster99', 'ryu.hj@example.com', 1, 3),
+(7, '김연아', 'figureskater', 'kim.ya@example.com', 2, 4),
+(8, '최민식', 'actor_choi', 'choi.ms@example.com', 1, 4),
+(9, '송강호', 'actor_song', 'song.kh@example.com', 2, 5),
+(10, '이병헌', 'actor_lee', 'lee.bh@example.com', 1, 5),
+(11, '정우성', 'actor_jung', 'jung.ws@example.com', 2, 1),
+(12, '고아라', 'ara_go', 'go.ar@example.com', 1, 2),
+(13, '강동원', 'gang_dw', 'gang.dw@example.com', 2, 3),
+(14, '김태희', 'kim.th', 'kim.th@example.com', 1, 4),
+(15, '현빈', 'hyun_bin', 'hyun.bin@example.com', 2, 5);
