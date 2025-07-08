@@ -72,10 +72,12 @@
       <summary>경기 수정</summary> <img width="1083" height="274" alt="Image" src="https://github.com/user-attachments/assets/681e2bdc-8b82-48d8-bab8-b01c3ce7117f" />
     </details>
     <details>
+      <br>
       <summary>경기 삭제</summary> <img width="1087" height="230" alt="Image" src="https://github.com/user-attachments/assets/e5e82cb2-f12e-4ce4-ba36-3d303ab43864" />
     </details>
     <details>
-      <summary>경기 리스트 조회</summary> <img width="848" height="533" alt="Image" src="https://github.com/user-attachments/assets/06ae8aae-7f07-42c8-aa02-d6e0e3599377" />
+      <br>
+      <summary>경기 리스트 조회</summary> <img width="914" height="586" alt="Image" src="https://github.com/user-attachments/assets/424a6f82-a518-45ae-a296-02dc44370bb3" />
     </details>
     <details>
       <summary>경기 상세 조회</summary>
