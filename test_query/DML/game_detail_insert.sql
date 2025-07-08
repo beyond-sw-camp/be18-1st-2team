@@ -29,13 +29,13 @@ po,
 sb,
 cs
 ) VALUES
--- 각각 4207, 3002, 4201번 선수의 총 6개 데이터 (2022년 시즌 2경기 3001,3002 / 2023년 시즌 2경기 4001,4002 / 2024년 시즌 2경기 5001,5002)
-(1,  4207, 3001, 2022, 3, 1, 0, 1, 0, 0, 0, 0, 2, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 0, 0),
-(2,  4207, 3002, 2022, 5, 3, 1, 1, 0, 1, 2, 0, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 1, 0),
-(3,  4207, 4001, 2023, 4, 1, 0, 0, 0, 1, 1, 2, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0),
-(4,  4207, 4002, 2023, 3, 2, 2, 0, 0, 0, 1, 0, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0),
-(5,  4207, 5001, 2024, 4, 2, 2, 0, 0, 0, 1, 1, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, 1, 1, 1),
-(6,  4207, 5002, 2024, 4, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 1, 1, 0),
+-- 각각 3009, 3002, 4201번 선수의 총 6개 데이터 (2022년 시즌 2경기 3001,3002 / 2023년 시즌 2경기 4001,4002 / 2024년 시즌 2경기 5001,5002)
+(1,  3009, 3001, 2022, 3, 1, 0, 1, 0, 0, 0, 0, 2, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 0, 0),
+(2,  3009, 3002, 2022, 5, 3, 1, 1, 0, 1, 2, 0, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 1, 0),
+(3,  3009, 4001, 2023, 4, 1, 0, 0, 0, 1, 1, 2, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0),
+(4,  3009, 4002, 2023, 3, 2, 2, 0, 0, 0, 1, 0, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0),
+(5,  3009, 5001, 2024, 4, 2, 2, 0, 0, 0, 1, 1, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, 1, 1, 1),
+(6,  3009, 5002, 2024, 4, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 1, 1, 0),
 (7,  3002, 3001, 2022, 3, 2, 1, 1, 0, 0, 1, 0, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 0, 0),
 (8,  3002, 3002, 2022, 5, 2, 2, 0, 0, 0, 1, 0, 1, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0),
 (9,  3002, 4001, 2023, 4, 1, 0, 1, 0, 0, 0, 2, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 1, 0, 0),
