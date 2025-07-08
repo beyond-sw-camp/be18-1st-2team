@@ -6,7 +6,7 @@ BEGIN
   INSERT INTO `player_record_detail` (
     player_id, season,
     games, ab, hit,`1b`,`2b`,`3b`, hr, rbi,
-    hitter_so, hitter_bb,
+    hitter_so, hitter_bb,hbp,sf,
     ip, er, pitcher_h, pitcher_so, pitcher_bb,
     win, lose, save,
     `error`, assist, po, sb, cs
@@ -17,6 +17,7 @@ BEGIN
     IFNULL(NEW.`1b`,0), IFNULL(NEW.`2b`,0), IFNULL(NEW.`3b`,0),
     IFNULL(NEW.hr,0),   IFNULL(NEW.rbi,0),
     IFNULL(NEW.hitter_so,0), IFNULL(NEW.hitter_bb,0),
+    IFNULL(NEW.hbp,0), IFNULL(NEW.sf,0),
     IFNULL(NEW.ip,0),   IFNULL(NEW.er,0),
     IFNULL(NEW.pitcher_h,0), IFNULL(NEW.pitcher_so,0), IFNULL(NEW.pitcher_bb,0),
     IFNULL(NEW.win,0),  IFNULL(NEW.lose,0),  IFNULL(NEW.save,0),
@@ -34,6 +35,8 @@ BEGIN
     rbi         = rbi         + VALUES(rbi),
     hitter_so   = hitter_so   + VALUES(hitter_so),
     hitter_bb   = hitter_bb   + VALUES(hitter_bb),
+    hbp   = hbp   + VALUES(hbp),
+    sf   = sf   + VALUES(sf),
      ip = (
       FLOOR(  /* 정수부 = total_outs ÷ 3 */
         (
