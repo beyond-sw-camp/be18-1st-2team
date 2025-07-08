@@ -28,8 +28,7 @@ INSERT INTO player_position (player_id, position_id, is_main_position) VALUES
 (4203, 3, TRUE),
 (4204, 4, TRUE),
 (4205, 6, TRUE),
-(4206, 10, TRUE),
-(4207, 9, TRUE);
+(4206, 10, TRUE);
 
 SELECT
   p.player_id,
