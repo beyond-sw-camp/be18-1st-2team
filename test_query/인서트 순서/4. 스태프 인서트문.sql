@@ -30,4 +30,4 @@ INSERT INTO staff (staff_id, team_id, role, staff_name, phone, career, hire_date
 -- 양상문 감독 시절 (2014-2016) 일부
 (18, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '감독', '양상문', '010-3333-0001', '18년', '2014-05-11', '2017-10-11'),
 (19, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '투수코치', '강상수', '010-3333-0002', '10년', '2014-01-01', '2017-01-01'),
-(20, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '타격코치', '서용빈', '010-3333-0003', '8년', '2014-01-01', '2017-01-01');
+(20, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '타격코치', '서용빈', '010-3333-0003', '8년', '2014-01-01', '2017-01-01'); 
