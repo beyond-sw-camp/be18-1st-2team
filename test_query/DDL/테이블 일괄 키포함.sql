@@ -1,3 +1,9 @@
+-- 데이터베이스 생성
+CREATE DATABASE bms_db;
+
+-- 데이터베이스 선택
+USE bms_db;
+
 -- team 테이블 (구단 정보)
 CREATE TABLE `team` (
   `team_id` INT NOT NULL COMMENT '팀 ID',
