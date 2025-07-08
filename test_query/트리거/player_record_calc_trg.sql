@@ -13,10 +13,16 @@ BEGIN
   SELECT
     NEW.player_id,
     NEW.season,
-    -- ERA: (총 자책점 * 9) / 총 이닝
-    ROUND(SUM(er) * 9.0 / NULLIF(SUM(ip),0), 2),
-    -- WHIP: (피안타 + 볼넷) / 총 이닝
-    ROUND((SUM(pitcher_h) + SUM(pitcher_bb)) / NULLIF(SUM(ip),0), 2),
+    ROUND(
+      SUM(er) * 9.0
+      / NULLIF( SUM(FLOOR(ip)*3 + ROUND((ip-FLOOR(ip))*10)) / 3.0, 0 )
+    , 2) AS era,
+
+    -- (피안타+볼넷) / (총아웃/3)
+    ROUND(
+      (SUM(pitcher_h) + SUM(pitcher_bb))
+      / NULLIF( SUM(FLOOR(ip)*3 + ROUND((ip-FLOOR(ip))*10)) / 3.0, 0 )
+    , 2) AS whip,
     -- 타율
     ROUND(SUM(hit)     / NULLIF(SUM(ab),0),                3),
     -- 출루율
@@ -71,8 +77,14 @@ BEGIN
   SELECT
     NEW.player_id,
     NEW.season,
-    ROUND(SUM(er) * 9.0 / NULLIF(SUM(ip),0), 2),
-    ROUND((SUM(pitcher_h) + SUM(pitcher_bb)) / NULLIF(SUM(ip),0), 2),
+    ROUND(
+      SUM(er) * 9.0
+      / NULLIF( SUM(FLOOR(ip)*3 + ROUND((ip-FLOOR(ip))*10)) / 3.0, 0 )
+    , 2),
+    ROUND(
+      (SUM(pitcher_h) + SUM(pitcher_bb))
+      / NULLIF( SUM(FLOOR(ip)*3 + ROUND((ip-FLOOR(ip))*10)) / 3.0, 0 )
+    , 2),
     ROUND(SUM(hit)     / NULLIF(SUM(ab),0),                3),
     ROUND((SUM(hit)+SUM(hitter_bb)+SUM(hbp)) 
           / NULLIF(SUM(ab)+SUM(hitter_bb)+SUM(hbp)+SUM(sf),0), 3),
