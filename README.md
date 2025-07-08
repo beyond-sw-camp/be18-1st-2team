@@ -49,6 +49,7 @@
       <summary>회원 정보 수정</summary> <img width="825" height="254" alt="Image" src="https://github.com/user-attachments/assets/0d2cb73c-61ff-464d-855a-5da8e98bac9a" />
     </details>
     <details>
+      <br>
       <summary>회원 탈퇴</summary> <img width="830" height="255" alt="Image" src="https://github.com/user-attachments/assets/20f3e365-5850-4d8f-b3ae-4e207dde6dc7" />
     </details>
   </details>
