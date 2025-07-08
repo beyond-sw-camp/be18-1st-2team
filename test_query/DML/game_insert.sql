@@ -1,18 +1,5 @@
--- 홈팀 외래키 추가
-ALTER TABLE `game`
-ADD CONSTRAINT `FK_home_team`
-FOREIGN KEY (`home`) REFERENCES `team`(`team_id`);
-
--- 원정팀 외래키 추가
-ALTER TABLE `game`
-ADD CONSTRAINT `FK_away_team`
-FOREIGN KEY (`away`) REFERENCES `team`(`team_id`);
-
--- 하나만 연결돼있던 키 삭제
-ALTER TABLE game DROP FOREIGN KEY FK_team_TO_game_1;
-
 -- 100 dummy games for LG Twins with season-based ID ranges
-INSERT INTO `game` (`game_id`,`home`,`away`,`start_time`,`end_time`,`win`,`lose`,`home_score`,`lose_score`,`stadium`) VALUES
+INSERT INTO `game` (`game_id`,`home`,`away`,`start_time`,`end_time`,`win`,`lose`,`home_score`,`away_score`,`stadium`) VALUES
   (1001, 5, 1, '2020-06-22 18:00:00', '2020-06-22 21:00:00', 5, 1, 10, 0, '광주기아챔피언스필드'),
   (1002, 8, 1, '2020-07-09 18:00:00', '2020-07-09 21:00:00', 8, 1, 7, 5, '한화생명이글스파크'),
   (1003, 4, 1, '2020-09-27 18:00:00', '2020-09-27 21:00:00', 1, 4, 1, 8, '고척스카이돔'),
@@ -123,7 +110,7 @@ SELECT
   home.team_name AS home_team,
   away.team_name AS away_team,
   g.home_score,
-  g.lose_score,
+  g.away_score,
   g.win,
   g.lose
 FROM game g
@@ -139,7 +126,7 @@ SELECT
   home.team_name AS home_team,
   away.team_name AS away_team,
   g.home_score,
-  g.lose_score,
+  g.away_score,
   CASE 
     WHEN g.win = 1 THEN '승'
     WHEN g.lose = 1 THEN '패'
