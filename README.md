@@ -27,35 +27,43 @@
 
 ## 테스트케이스
 
+## 테스트케이스
+
 <strong>사용자</strong>
 
 <details>
   <summary>사용자</summary>
   <details>
-    <summary>회원관리</summary>
+    <summary>회원관리</summary> 
     <details>
-      <summary>회원 가입</summary>
+      <br> 
+      <summary>회원 가입</summary> <img width="942" height="230" alt="Image" src="https://github.com/user-attachments/assets/488b9f15-5f6b-4f72-b98b-7b893393eb8e" />
     </details>
     <details>
       <summary>회원 정보 조회</summary>
-      권한 조회
+      <br>
+      <p>📌 <strong>권한 조회</strong></p> <img width="611" height="242" alt="Image" src="https://github.com/user-attachments/assets/19620161-307b-4eb8-a3b8-ad020f608f2c" />
     </details>
     <details>
-      <summary>회원 정보 수정</summary>
+      <br>
+      <summary>회원 정보 수정</summary> <img width="825" height="254" alt="Image" src="https://github.com/user-attachments/assets/0d2cb73c-61ff-464d-855a-5da8e98bac9a" />
     </details>
     <details>
-      <summary>회원 탈퇴</summary>
+      <summary>회원 탈퇴</summary> <img width="830" height="255" alt="Image" src="https://github.com/user-attachments/assets/20f3e365-5850-4d8f-b3ae-4e207dde6dc7" />
     </details>
   </details>
   <details>
     <summary>로그인</summary>
-    아이디 정보 조회
+    <br>
+    <p>📌 <strong>아이디 정보 조회</strong></p> <img width="609" height="258" alt="Image" src="https://github.com/user-attachments/assets/7bb1e0f7-1289-4d65-a9bd-e11491e11c1a" />
   </details>
   <details>
-    <summary>아이디 찾기</summary>
+    <br>
+    <summary>아이디 찾기</summary> <img width="733" height="172" alt="Image" src="https://github.com/user-attachments/assets/525aa92c-b161-44bf-bea0-b632c2754dd9" />
   </details>
   <details>
-    <summary>비밀번호 찾기</summary>
+    <br>
+    <summary>비밀번호 찾기</summary> <img width="480" height="217" alt="Image" src="https://github.com/user-attachments/assets/76d1791d-fc73-4c2c-b171-684bb890cdeb" />
   </details>
 </details>
 
@@ -107,7 +115,7 @@
     <summary>팀 리스트 조회</summary> <img width="552" height="368" alt="Image" src="https://github.com/user-attachments/assets/71d72446-5476-48e3-a781-6207d9ea8c4d" />
   </details>
   <details>
-    <summary>팀 정보 조회</summary>
+    <summary>팀 정보 조회</summary> 
     <br>
     <p>📌 <strong>팀 소속 선수 조회</strong></p>
     <img width="502" height="437" alt="Image" src="https://github.com/user-attachments/assets/ffeae385-3877-4aac-82ce-b41e650fe340" />
@@ -155,7 +163,7 @@
   </details>
   <details>
     <br>
-    <summary>선수 계약</summary>
+    <summary>선수 계약</summary> <img width="727" height="401" alt="Image" src="https://github.com/user-attachments/assets/c3565ce3-e752-4e1e-a885-9b49bbacc15f" />
   </details>
   <details>
     <br>
