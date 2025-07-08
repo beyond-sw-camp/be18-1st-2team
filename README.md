@@ -75,6 +75,15 @@
 
 ## 🗒️ 요구사항 명세서
 [요구사항 명세서](https://docs.google.com/spreadsheets/d/1qhkPlvUMm9yCUx77oIeDukqOrJNGM85g3CbTBZ34niw/edit?usp=sharing)
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="/docs/requirements1.png"/></td>
+                <td><img src="/docs/requirements2.png"/></td>
+                <td><img src="/docs/requirements3.png"/></td>
+            </tr>
+        </tbody>
+    </table>
 
 ## 📊 테이블 정의서
 [테이블 정의서](https://docs.google.com/spreadsheets/d/1Q1egMS5cPVRtyZelnnXaTjeVe6Mj0uGjum8gsACMbF0/edit?usp=sharing)
