@@ -1,11 +1,11 @@
 ## 🎯 야구 구단 선수 관리 및 경영 시스템
 
-## 👥 팀원 소개
-- 김민준 – 
-- 박종원 – 
-- 박진우 – 
-- 윤석현 – 
-- 최유경 – 
+## 👥 팀 소개
+
+| **🅹** | **🅹** | **🅼** | **🅨** | **🅢** |
+|:--:|:--:|:--:|:--:|:--:|
+| 박종원 | 박진우 | 김민 | 최유경 | 윤석현 |
+| [GitHub](https://github.com/IIIjong) | [GitHub](https://github.com/JINWOO-0715) | [GitHub](https://github.com/promandu) | [GitHub](https://github.com/kyounggg) | [GitHub](https://github.com/xxiuan) |
 
 ## 📝 프로젝트 기획서
 [프로젝트 기획서](docs/PlayerManagement_ProjectProposal.md)
