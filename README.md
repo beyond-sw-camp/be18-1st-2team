@@ -228,9 +228,22 @@
     <p>📌 <strong>특정 선수의 이름, 나이, 국적, 등번호, 포지션명, 입단일 조회</strong></p> <img width="672" height="328" alt="Image" src="https://github.com/user-attachments/assets/7bf3758d-2b7d-4c28-aa8e-1f486636172c" />
   </details>
   <details>
-    <br>
-    <summary>선수 기록</summary>
-  </details>
+  <summary>선수 기록 보기</summary>
+  <br>
+
+  <p><strong>타자 시즌별 통산 기록 조회</strong></p>
+  <img src="https://github.com/user-attachments/assets/dc9eaf10-dc78-4414-93a4-69e6ab337e63" width="700"/>
+
+  <p><strong>타자 시즌별 지표 기록 조회</strong></p>
+  <img src="https://github.com/user-attachments/assets/6f4ebb53-cd88-4de5-8045-a8ae2bb6ce3c" width="700"/>
+
+  <p><strong>투수 시즌별 통산 기록 조회</strong></p>
+  <img src="https://github.com/user-attachments/assets/9677503a-5cf4-414b-bc08-11d7e7db79a2" width="700"/>
+
+  <p><strong>투수 시즌별 지표 기록 조회</strong></p>
+  <img src="https://github.com/user-attachments/assets/cefff87d-452e-4a3b-b9fa-1a17c23c48fd" width="700"/>
+
+</details>
   <details>
     <br>
     <summary>선수 계약</summary> <img width="727" height="401" alt="Image" src="https://github.com/user-attachments/assets/c3565ce3-e752-4e1e-a885-9b49bbacc15f" />
