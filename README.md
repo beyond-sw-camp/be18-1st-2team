@@ -4,7 +4,7 @@
 <hr>
  <img src="/docs/news1.png"/>
  
-<h3><a href="https://www.mk.co.kr/news/it/10878357">⚾ 실제 사례: LG 트윈스, 29년 만의 우승 비결은?</a></h3>
+<h3><a href="https://www.mk.co.kr/news/it/10878357">🥎 실제 사례: LG 트윈스, 29년 만의 우승 비결은?</a></h3>
 <hr>
  <img src="/docs/news2.png"/>
 
