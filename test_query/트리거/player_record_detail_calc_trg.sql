@@ -30,7 +30,24 @@ BEGIN
     rbi         = rbi         + VALUES(rbi),
     hitter_so   = hitter_so   + VALUES(hitter_so),
     hitter_bb   = hitter_bb   + VALUES(hitter_bb),
-    ip          = ROUND(ip    + VALUES(ip),1),
+     ip = (
+      FLOOR(  /* 정수부 = total_outs ÷ 3 */
+        (
+          /* 기존아웃 */ FLOOR(ip)*3
+          + ROUND((ip - FLOOR(ip))*10)
+          /* + incoming 아웃 */ 
+          + FLOOR(VALUES(ip))*3
+          + ROUND((VALUES(ip) - FLOOR(VALUES(ip)))*10)
+        ) / 3
+      )
+      /* + 소수부 = (total_outs % 3) × 0.1 */
+      + (MOD(
+          FLOOR(ip)*3 
+          + ROUND((ip - FLOOR(ip))*10)
+          + FLOOR(VALUES(ip))*3
+          + ROUND((VALUES(ip) - FLOOR(VALUES(ip)))*10)
+        , 3) * 0.1)
+    ),
     er          = er          + VALUES(er),
     pitcher_h   = pitcher_h   + VALUES(pitcher_h),
     pitcher_so  = pitcher_so  + VALUES(pitcher_so),
