@@ -9,7 +9,7 @@ CREATE TABLE `team` (
   `team_id` INT NOT NULL COMMENT '팀 ID',
   `team_name` VARCHAR(20) NOT NULL COMMENT '팀명',
   `region` VARCHAR(20) COMMENT '연고지',
-  `found_year` YEAR COMMENT '창단일',
+  `found_year` YEAR COMMENT '창단일'
   `stadium` VARCHAR(20) COMMENT '홈구장',
   PRIMARY KEY (`team_id`)
 );
@@ -32,7 +32,8 @@ CREATE TABLE `user` (
   `resident_number` CHAR(14) NOT NULL COMMENT '주민 번호',
   PRIMARY KEY (`user_id`),
   CONSTRAINT `FK_user_permission` FOREIGN KEY (`permission_id`) REFERENCES `permission` (`permission_id`),
-  CONSTRAINT `FK_user_team`       FOREIGN KEY (`team_id`)       REFERENCES `team` (`team_id`)
+  CONSTRAINT `FK_user_team`       FOREIGN KEY (`team_id`)       REFERENCES `team` (`team_id`),
+  UNIQUE KEY unique_resident_number (resident_number)
 );
 
 -- staff 테이블 (스태프)
