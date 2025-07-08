@@ -25,7 +25,7 @@ INSERT INTO staff (staff_id, team_id, role, staff_name, phone, career, hire_date
 (15, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '투수코치', '최일언', '010-2222-0003', '15년', '2018-01-01', '2020-11-04'),
 (16, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '타격코치', '박용택', '010-2222-0004', '10년', '2019-01-01', '2020-11-04'), -- 박용택은 2020년 은퇴 (코치 X) 다른 이름으로 변경
 -- 박용택 선수를 예시로 넣었는데, 코치 경력이 없으므로 실제 코치였던 다른 인물로 대체하겠습니다.
-(17, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '타격코치', '이병규', '010-2222-0004', '8년', '2018-01-01', '2020-11-04'),
+(17, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '타격코치', '이병규', '010-2222-0005', '8년', '2018-01-01', '2020-11-04'),
 
 -- 양상문 감독 시절 (2014-2016) 일부
 (18, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '감독', '양상문', '010-3333-0001', '18년', '2014-05-11', '2017-10-11'),
