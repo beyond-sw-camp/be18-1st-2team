@@ -26,6 +26,9 @@
 ## 🗂️ 프로젝트 구조
 
 ## 테스트케이스
+
+<strong>사용자</strong>
+
 <details>
   <summary>사용자</summary>
   <details>
@@ -55,6 +58,9 @@
     <summary>비밀번호 찾기</summary>
   </details>
 </details>
+
+<strong>경기</strong>
+
 <details>
   <summary>경기</summary>
     <details>
@@ -75,27 +81,29 @@
       각 지표별 선수 조회
     </details>
 </details>
+
+<strong>팀</strong>
+
 <details>
   <summary>팀</summary>
   <details>
-    <summary>팀 정보 등록</summary>
+    <summary>팀 정보 등록</summary> <img width="751" height="328" alt="Image" src="https://github.com/user-attachments/assets/7a8079d2-a913-4e25-9549-b7341b32a111" />
   </details>
   <details>
-    <summary>팀 정보 수정</summary>
+    <summary>팀 정보 수정</summary> <img width="548" height="152" alt="Image" src="https://github.com/user-attachments/assets/4c757f73-e66e-4031-82c4-c1a027f9c887" />
   </details>
   <details>
-    <summary>팀 정보 삭제</summary>
+    <summary>팀 정보 삭제</summary> <img width="558" height="308" alt="Image" src="https://github.com/user-attachments/assets/9ac6a8f4-fbc7-416d-9d24-be0622942af5" />
   </details>
   <details>
-    <summary>팀 리스트 조회</summary>
+    <summary>팀 리스트 조회</summary> <img width="552" height="368" alt="Image" src="https://github.com/user-attachments/assets/71d72446-5476-48e3-a781-6207d9ea8c4d" />
   </details>
   <details>
     <summary>팀 정보 조회</summary>
-      팀 소속 선수 조회
-   <details>
- <summary>팀 성적 조회</summary>
-  <br>
-
+    <br>
+    <p>📌 <strong>팀 소속 선수 조회</strong></p>
+    <img width="502" height="437" alt="Image" src="https://github.com/user-attachments/assets/ffeae385-3877-4aac-82ce-b41e650fe340" />
+  <br><br>
   <p>📌 <strong>승률 조회</strong></p>
   <img width="578" height="283" alt="승률 이미지" src="https://github.com/user-attachments/assets/faa3c34d-ae1f-4d7f-83f8-641c54b5192c" />
   <br><br>
@@ -107,9 +115,11 @@
   <p>📌 <strong>시즌별 성적 조회</strong></p>
   <img width="578" alt="시즌별 성적 이미지" src="https://github.com/user-attachments/assets/3959b389-7d1a-42db-931b-c273f3659761" />
   <br>
-</details>
   </details>
 </details>
+
+<strong>선수</strong>
+
 <details>
   <summary>선수</summary>
   <details>
@@ -134,6 +144,9 @@
     <summary>선수 훈련</summary>
   </details>
 </details>
+
+<strong>스태프</strong>
+
 <details>
     <summary>스태프</summary>
   <details>
