@@ -23,3 +23,24 @@
 ## 🌟 주요 기능
 
 ## 🗂️ 프로젝트 구조
+
+## 테스트케이스
+<details>
+  <summary>
+    사용자
+</details>
+<details>
+  <summary>
+    경기
+  </summary>
+</details>
+<details>
+  <summary>
+    팀
+  </summary>
+</details>
+<details>
+  <summary>
+    선수
+  </summary>
+</details>
