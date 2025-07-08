@@ -91,15 +91,19 @@
 <details>
   <summary>팀</summary>
   <details>
+    <br>
     <summary>팀 정보 등록</summary> <img width="751" height="328" alt="Image" src="https://github.com/user-attachments/assets/7a8079d2-a913-4e25-9549-b7341b32a111" />
   </details>
   <details>
+    <br>
     <summary>팀 정보 수정</summary> <img width="548" height="152" alt="Image" src="https://github.com/user-attachments/assets/4c757f73-e66e-4031-82c4-c1a027f9c887" />
   </details>
   <details>
+    <br>
     <summary>팀 정보 삭제</summary> <img width="558" height="308" alt="Image" src="https://github.com/user-attachments/assets/9ac6a8f4-fbc7-416d-9d24-be0622942af5" />
   </details>
   <details>
+    <br>
     <summary>팀 리스트 조회</summary> <img width="552" height="368" alt="Image" src="https://github.com/user-attachments/assets/71d72446-5476-48e3-a781-6207d9ea8c4d" />
   </details>
   <details>
@@ -155,17 +159,28 @@
     <summary>스태프</summary>
   <details>
     <summary>스태프 정보 등록</summary>
+    <br>
+     <p>📌 <strong>스태프 등록(감독이 있는 경우)</strong></p> <img width="714" height="584" alt="Image" src="https://github.com/user-attachments/assets/f18749d8-29de-42d4-a1a4-6c1412df2d4a" />
+    <br><br>
+    <p>📌 <strong>스태프 등록(감독이 없는 경우)</strong></p> <img width="819" height="494" alt="Image" src="https://github.com/user-attachments/assets/bc21dd46-10f2-4b10-8699-e14a6a778fa2" />
   </details>
   <details>
-    <summary>스태프 정보 수정</summary>
+    <br>
+    <summary>스태프 정보 수정</summary> <img width="819" height="289" alt="Image" src="https://github.com/user-attachments/assets/8bfaa251-7325-4dfd-b31f-5bfacd17377d" />
   </details>
   <details>
-    <summary>스태프 정보 삭제</summary>
+    <br>
+    <summary>스태프 정보 삭제</summary> <img width="817" height="198" alt="Image" src="https://github.com/user-attachments/assets/d545d1d9-1350-4fb0-a205-6ded5f133df9" />
   </details>
   <details>
     <summary>스태프 정보 조회</summary>
-    역할 조회
-    은퇴 스태프 조회
-    스태프 경력 조회
+    <br>
+     <p>📌 <strong>재직중인 스태프 정보 조회</strong></p> <img width="707" height="449" alt="Image" src="https://github.com/user-attachments/assets/aa2b0e84-57c8-488b-acef-68a8e9c02ee3" />
+    <br> <br>
+     <p>📌 <strong>재직중인 투수 코치 정보 조회</strong></p> <img width="446" height="286" alt="Image" src="https://github.com/user-attachments/assets/11cf70d7-0459-4340-9d79-d4d029637823" />
+    <br> <br>
+     <p>📌 <strong>은퇴 스태프 조회</strong></p> <img width="729" height="399" alt="Image" src="https://github.com/user-attachments/assets/a6e3f140-d861-41f7-8881-696611447db7" />
+    <br> <br>
+     <p>📌 <strong>재직 중인 경력 10년차 이상 LG 스태프 조회</strong></p>  <img width="502" height="516" alt="Image" src="https://github.com/user-attachments/assets/8b03493f-4d70-41fc-a269-33f8a7c6b03c" />
   </details>
 </details>
