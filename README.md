@@ -17,6 +17,7 @@
 [테이블 정의서](https://docs.google.com/spreadsheets/d/1Q1egMS5cPVRtyZelnnXaTjeVe6Mj0uGjum8gsACMbF0/edit?usp=sharing)
 
 ## 🗺️ ER 다이어그램
+[erd](https://www.erdcloud.com/d/ioEKRYGXJoH7n92cP)
 
 ## 🔧 기술 스택
 
