@@ -18,15 +18,15 @@ WHERE game_id = 1001;
 SELECT  
   ht.team_name AS '홈팀',
   at.team_name AS '어웨이팀',
-  DATE_FORMAT(g.start_time, '%Y년 %m월 %d일 %H시 %i분') AS '경기일자',
-   wt.team_name AS '승리팀',
+  DATE_FORMAT(g.start_time, '%Y년 %m월 %d일 %H시 %i분') AS '경기일시',
+  IFNULL(wt.team_name, '무승부') AS '승리팀',
   g.home_score AS '홈팀 점수',
   g.away_score AS '어웨이팀 점수',
   g.stadium AS '경기장'
 FROM game g
 LEFT JOIN team ht ON g.home = ht.team_id
-LEFT JOIN team at ON g.away = at.team_id
-LEFT JOIN team wt ON g.home = wt.team_id
+LEFT JOIN team AT ON g.away = at.team_id
+LEFT JOIN team wt ON g.win = wt.team_id
 ORDER BY 3 ASC;
 
 -- 경기 삭제
