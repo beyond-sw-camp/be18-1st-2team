@@ -95,7 +95,7 @@
     <details>
     <summary>팀 성적 조회</summary>
       승률 조회
-     ![2024시즌 LG 승률 조회](./image/LG 2024 승률 조회.png)
+     <img width="578" height="283" alt="Image" src="https://github.com/user-attachments/assets/faa3c34d-ae1f-4d7f-83f8-641c54b5192c" />
       승/패 조
       시즌별 성적 조회
   </details>
