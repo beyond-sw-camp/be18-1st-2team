@@ -27,8 +27,6 @@
 
 ## 테스트케이스
 
-## 테스트케이스
-
 <strong>사용자</strong>
 
 <details>
