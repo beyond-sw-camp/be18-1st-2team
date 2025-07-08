@@ -5,7 +5,7 @@ FOR EACH ROW
 BEGIN
   INSERT INTO `player_record_detail` (
     player_id, season,
-    games, ab, hit, hr, rbi,
+    games, ab, hit,`1b`,`2b`,`3b`, hr, rbi,
     hitter_so, hitter_bb,
     ip, er, pitcher_h, pitcher_so, pitcher_bb,
     win, lose, save,
@@ -14,6 +14,7 @@ BEGIN
     NEW.player_id, NEW.season,
     1,
     IFNULL(NEW.ab,0),   IFNULL(NEW.hit,0),
+    IFNULL(NEW.`1b`,0), IFNULL(NEW.`2b`,0), IFNULL(NEW.`3b`,0),
     IFNULL(NEW.hr,0),   IFNULL(NEW.rbi,0),
     IFNULL(NEW.hitter_so,0), IFNULL(NEW.hitter_bb,0),
     IFNULL(NEW.ip,0),   IFNULL(NEW.er,0),
@@ -26,6 +27,9 @@ BEGIN
     games       = games       + 1,
     ab          = ab          + VALUES(ab),
     hit         = hit         + VALUES(hit),
+    `1b`         = `1b`         + VALUES(`1b`),
+    `2b`        = `2b`        + VALUES(`2b`),
+    `3b`        = `3b`        + VALUES(`3b`),
     hr          = hr          + VALUES(hr),
     rbi         = rbi         + VALUES(rbi),
     hitter_so   = hitter_so   + VALUES(hitter_so),
