@@ -1,6 +1,3 @@
--- contract_id를 AUTO_INCREMENT로 설정
-ALTER TABLE contract MODIFY contract_id INT AUTO_INCREMENT;
- 
 -- 계약 인서트 문
 INSERT INTO contract (payment, year_salary, contract_start, contract_end, player_id, team_id) 
 VALUES
