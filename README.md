@@ -77,7 +77,7 @@
     </details>
     <details>
       <br>
-      <summary>경기 리스트 조회</summary> <img width="914" height="586" alt="Image" src="https://github.com/user-attachments/assets/424a6f82-a518-45ae-a296-02dc44370bb3" />
+      <summary>경기 리스트 조회</summary> <img width="911" height="600" alt="Image" src="https://github.com/user-attachments/assets/9be7c0a3-8c81-4335-a7ab-51cbc3c45822" />
     </details>
     <details>
       <summary>경기 상세 조회</summary>
