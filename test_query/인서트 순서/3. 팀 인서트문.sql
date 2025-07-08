@@ -1,4 +1,4 @@
--- 현존 구단
+-- 현존 구단 
 INSERT INTO team (team_id, team_name, region, found_year, stadium) VALUES
 (1,  'LG 트윈스',            '서울',   '1990', '잠실야구장'),
 (2,  '두산 베어스',          '서울',   '1982', '잠실야구장'),
