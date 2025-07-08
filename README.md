@@ -93,7 +93,7 @@
 <strong>사용자</strong>
 
 <details>
-  <summary>사용자</summary>
+  <summary>👨‍💻 사용자</summary>
   <details>
     <summary>회원관리</summary> 
     <details>
@@ -132,7 +132,7 @@
 <strong>경기</strong>
 
 <details>
-  <summary>경기</summary>
+  <summary>👊 경기</summary>
     <details>
       <br>
       <summary>경기 등록</summary> <img width="1086" height="320" alt="Image" src="https://github.com/user-attachments/assets/57dbd5f7-6db6-4865-8498-54dce0b03410" />
@@ -159,7 +159,7 @@
 <strong>팀</strong>
 
 <details>
-  <summary>팀</summary>
+  <summary>🧑‍🤝‍🧑 팀</summary>
   <details>
     <br>
     <summary>팀 정보 등록</summary> <img width="751" height="328" alt="Image" src="https://github.com/user-attachments/assets/7a8079d2-a913-4e25-9549-b7341b32a111" />
@@ -199,7 +199,7 @@
 <strong>선수</strong>
 
 <details>
-  <summary>선수</summary>
+  <summary>🏃 선수</summary>
   <details>
     <br>
     <summary>선수 정보 등록</summary> <img width="1197" height="246" alt="Image" src="https://github.com/user-attachments/assets/5d85dcda-65bb-4e95-969d-045dfff82812" />
@@ -241,7 +241,7 @@
 <strong>스태프</strong>
 
 <details>
-    <summary>스태프</summary>
+    <summary>👨🏻‍🏫 스태프</summary>
   <details>
     <summary>스태프 정보 등록</summary>
     <br>
