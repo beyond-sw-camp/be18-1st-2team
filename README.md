@@ -92,13 +92,22 @@
   <details>
     <summary>팀 정보 조회</summary>
       팀 소속 선수 조회
-    <details>
-    <summary>팀 성적 조회</summary>
-      승률 조회
-     <img width="578" height="283" alt="Image" src="https://github.com/user-attachments/assets/faa3c34d-ae1f-4d7f-83f8-641c54b5192c" />
-      승/패 조
-      시즌별 성적 조회
-  </details>
+   <details>
+ <summary>팀 성적 조회</summary>
+  <br>
+
+  <p>📌 <strong>승률 조회</strong></p>
+  <img width="578" height="283" alt="승률 이미지" src="https://github.com/user-attachments/assets/faa3c34d-ae1f-4d7f-83f8-641c54b5192c" />
+  <br><br>
+
+  <p>📌 <strong>승/무/패 조회</strong></p>
+  <img width="578" alt="승무패 이미지" src="https://github.com/user-attachments/assets/a5188322-6806-4a85-866b-62662d0208b0" />
+  <br><br>
+
+  <p>📌 <strong>시즌별 성적 조회</strong></p>
+  <img width="578" alt="시즌별 성적 이미지" src="https://github.com/user-attachments/assets/3959b389-7d1a-42db-931b-c273f3659761" />
+  <br>
+</details>
   </details>
 </details>
 <details>
