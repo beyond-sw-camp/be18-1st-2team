@@ -157,8 +157,10 @@
     </details>
     <details>
       <summary>경기 상세 조회</summary>
-      경기 상세 조회
-      각 지표별 선수 조회
+      <br>
+      경기 타자 기록 조회 <img width="911" height="600" alt="Image" src="https://github.com/user-attachments/assets/768307f7-4a11-4393-b775-d4fae9caa7db" />
+      <br>
+      경기 투수 기록 조회 <img width="911" height="600" alt="Image" src="https://github.com/user-attachments/assets/7db8a8e7-c9f5-4c8c-b01b-b4fc8050d562" />
     </details>
 </details>
 
