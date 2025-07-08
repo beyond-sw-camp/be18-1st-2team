@@ -1,5 +1,4 @@
 # 🎯 야구 구단 선수 관리 및 경영 시스템
-## 🧠 데이터가 우승을 이끈다 - 왜 '데이터 야구'인가?
 ### 📌 전통적인 야구의 한계
 ![기사](/docs/news1.png)
 https://dbr.donga.com/article/view/1203/article_no/9397
