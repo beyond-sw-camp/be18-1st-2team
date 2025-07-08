@@ -23,12 +23,13 @@ CREATE TABLE `permission` (
 
 -- user 테이블 (사용자)
 CREATE TABLE `user` (
-  `user_id` INT NOT NULL COMMENT '사용자 ID',
+  `user_id` INT NOT NULL AUTO_INCREMENT COMMENT '사용자 ID',
   `name` VARCHAR(20) NOT NULL COMMENT '사용자명',
   `password` VARCHAR(30) NOT NULL COMMENT '비밀번호',
   `email` VARCHAR(30) COMMENT '이메일',
   `permission_id` INT NOT NULL COMMENT '권한 ID',
   `team_id` INT NOT NULL COMMENT '팀 ID',
+  `resident_number` CHAR(14) NOT NULL COMMENT '주민 번호',
   PRIMARY KEY (`user_id`),
   CONSTRAINT `FK_user_permission` FOREIGN KEY (`permission_id`) REFERENCES `permission` (`permission_id`),
   CONSTRAINT `FK_user_team`       FOREIGN KEY (`team_id`)       REFERENCES `team` (`team_id`)
