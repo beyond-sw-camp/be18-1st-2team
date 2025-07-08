@@ -120,7 +120,7 @@
     <img width="502" height="437" alt="Image" src="https://github.com/user-attachments/assets/ffeae385-3877-4aac-82ce-b41e650fe340" />
   <br><br>
   <p>📌 <strong>승률 조회</strong></p>
-  <img width="578" height="283" alt="승률 이미지" src="https://github.com/user-attachments/assets/faa3c34d-ae1f-4d7f-83f8-641c54b5192c" />
+  <img width="582" height="238" alt="Image" src="https://github.com/user-attachments/assets/b9d9659a-0bff-4290-97da-49f1f502e236" />
   <br><br>
 
   <p>📌 <strong>승/무/패 조회</strong></p>
