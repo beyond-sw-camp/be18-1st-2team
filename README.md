@@ -162,15 +162,15 @@
     <br>
      <p>📌 <strong>스태프 등록(감독이 있는 경우)</strong></p> <img width="714" height="584" alt="Image" src="https://github.com/user-attachments/assets/f18749d8-29de-42d4-a1a4-6c1412df2d4a" />
     <br><br>
-    <p>📌 <strong>스태프 등록(감독이 없는 경우)</strong></p> <img width="819" height="494" alt="Image" src="https://github.com/user-attachments/assets/bc21dd46-10f2-4b10-8699-e14a6a778fa2" />
+    <p>📌 <strong>스태프 등록(감독이 없는 경우)</strong></p> <img width="820" height="517" alt="Image" src="https://github.com/user-attachments/assets/fd1f7db8-1bca-4ce9-b4f9-c5fa7231a0c8" />
   </details>
   <details>
     <br>
-    <summary>스태프 정보 수정</summary> <img width="819" height="289" alt="Image" src="https://github.com/user-attachments/assets/8bfaa251-7325-4dfd-b31f-5bfacd17377d" />
+    <summary>스태프 정보 수정</summary> <img width="814" height="267" alt="Image" src="https://github.com/user-attachments/assets/526d7046-9967-44f0-90e4-5977ee56a199" />
   </details>
   <details>
     <br>
-    <summary>스태프 정보 삭제</summary> <img width="817" height="198" alt="Image" src="https://github.com/user-attachments/assets/d545d1d9-1350-4fb0-a205-6ded5f133df9" />
+    <summary>스태프 정보 삭제</summary> <img width="821" height="197" alt="Image" src="https://github.com/user-attachments/assets/4ae68bd1-5882-4b06-8d17-9453fffdb7d2" />
   </details>
   <details>
     <summary>스태프 정보 조회</summary>
