@@ -95,6 +95,8 @@
     <details>
     <summary>팀 성적 조회</summary>
       승률 조회
+      ![LG 2024 승률 조회](https://github.com/user-attachments/assets/997936be-0dab-489f-bf50-8b9ebb5344c8)
+
       승/패 조
       시즌별 성적 조회
   </details>
