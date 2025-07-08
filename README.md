@@ -2,10 +2,44 @@
 
 ## 👥 팀 소개
 
-| **🅹** | **🅹** | **🅼** | **🅨** | **🅢** |
-|:--:|:--:|:--:|:--:|:--:|
-| 박종원 | 박진우 | 김민 | 최유경 | 윤석현 |
-| [GitHub](https://github.com/IIIjong) | [GitHub](https://github.com/JINWOO-0715) | [GitHub](https://github.com/promandu) | [GitHub](https://github.com/kyounggg) | [GitHub](https://github.com/xxiuan) |
+<table style="width:100%;">
+  <thead>
+    <tr align="center">
+      <th>박종원</th>
+      <th>박진우</th>
+      <th>김민준</th>
+      <th>최유경</th>
+      <th>윤석현</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>
+        <img src="https://www.freebiefindingmom.com/wp-content/uploads/2021/01/free-printable-colorful-cartoon-letters-cartoon-letter-J-1.jpg" width="100px" alt="박종원 프로필" style="border-radius:50%"/>
+      </td>
+      <td>
+        <img src="https://www.freebiefindingmom.com/wp-content/uploads/2021/01/free-printable-colorful-cartoon-letters-cartoon-letter-J-1.jpg" width="100px" alt="박진우 프로필" style="border-radius:50%"/>
+      </td>
+      <td>
+        <img src="https://www.freebiefindingmom.com/wp-content/uploads/2021/02/free-printable-colorful-cartoon-letters-cartoon-letter-M.jpg" width="100px" alt="김민준 프로필" style="border-radius:50%"/>
+      </td>
+      <td>
+        <img src="https://www.freebiefindingmom.com/wp-content/uploads/2021/02/free-printable-colorful-cartoon-letters-cartoon-letter-Y.jpg" width="100px" alt="최유경 프로필" style="border-radius:50%"/>
+      </td>
+      <td>
+        <img src="https://www.freebiefindingmom.com/wp-content/uploads/2021/02/free-printable-colorful-cartoon-letters-cartoon-letter-S.jpg" width="100px" alt="윤석현 프로필" style="border-radius:50%"/>
+      </td>
+    </tr>
+    <tr align="center">
+      <td><a href="https://github.com/IIIjong" target="_blank">IIIjong</a></td>
+      <td><a href="https://github.com/JINWOO-0715" target="_blank">JINWOO-0715</a></td>
+      <td><a href="https://github.com/promandu" target="_blank">promandu</a></td>
+      <td><a href="https://github.com/kyounggg" target="_blank">kyounggg</a></td>
+      <td><a href="https://github.com/xxiuan" target="_blank">xxiuan</a></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 📝 프로젝트 기획서
 [프로젝트 기획서](docs/PlayerManagement_ProjectProposal.md)
