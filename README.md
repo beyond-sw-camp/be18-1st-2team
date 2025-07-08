@@ -1,4 +1,4 @@
-# 🎯 선수 관리 시스템
+## 🎯 선수 관리 시스템
 
 ## 👥 팀원 소개
 - 김민준 – 
@@ -131,25 +131,40 @@
 <details>
   <summary>선수</summary>
   <details>
-    <summary>선수 정보 등록</summary>
+    <br>
+    <summary>선수 정보 등록</summary> <img width="1197" height="246" alt="Image" src="https://github.com/user-attachments/assets/5d85dcda-65bb-4e95-969d-045dfff82812" />
   </details>
   <details>
-    <summary>선수 정보 수정</summary>
+    <br>
+    <summary>선수 정보 수정</summary> <img width="1065" height="250" alt="Image" src="https://github.com/user-attachments/assets/85c28dde-dd3c-4687-a6d0-5f5e344ca367" />
   </details>
   <details>
-    <summary>선수 정보 삭제</summary>
+    <br>
+    <summary>선수 정보 삭제</summary> <img width="1062" height="247" alt="Image" src="https://github.com/user-attachments/assets/e9ad9a2a-2906-4e3f-a093-b1ef70cf5e26" />
   </details>
   <details>
+    <br>
     <summary>선수 정보 조회</summary>
+    <p>📌 <strong>선수들의 이름, 나이, 국적, 등번호, 포지션명, 입단일 조회</strong></p> <img width="647" height="512" alt="Image" src="https://github.com/user-attachments/assets/f111b78e-c64c-4f5d-b823-9e8048927307" />  
+    <br> <br>
+    <p>📌 <strong>특정 선수의 이름, 나이, 국적, 등번호, 포지션명, 입단일 조회</strong></p> <img width="672" height="328" alt="Image" src="https://github.com/user-attachments/assets/7bf3758d-2b7d-4c28-aa8e-1f486636172c" />
   </details>
   <details>
+    <br>
     <summary>선수 기록</summary>
   </details>
   <details>
+    <br>
     <summary>선수 계약</summary>
   </details>
   <details>
+    <br>
     <summary>선수 훈련</summary>
+    <p>📌 <strong>특정 선수가 받은 훈련 조회</strong></p> <img width="489" height="283" alt="Image" src="https://github.com/user-attachments/assets/1a4b5729-627b-4179-b00a-8b0f0e12d29b" />
+    <br> <br>
+    <p>📌 <strong>투수들의 훈련 조회</strong></p> <img width="617" height="398" alt="Image" src="https://github.com/user-attachments/assets/bc13003a-a8dc-4e5a-9099-3e86a557b526" />
+    <br> <br>
+    <p>📌 <strong>내야수들의 훈련 조회</strong></p> <img width="712" height="425" alt="Image" src="https://github.com/user-attachments/assets/c0647ece-a34a-4f68-963e-15d2733cee8e" />
   </details>
 </details>
 
