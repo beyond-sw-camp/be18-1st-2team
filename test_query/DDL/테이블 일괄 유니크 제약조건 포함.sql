@@ -198,7 +198,7 @@ CREATE TABLE `player_record_detail` (
 	`rbi`	INT	NULL	COMMENT '타자/타점',
 	`hitter_so`	INT	NULL	COMMENT '타자/삼진 수',
 	`hitter_bb`	INT	NULL	COMMENT '타자/볼넷 수',
-	`Field`	INT	NULL	COMMENT '타자/사구',
+	`hbp`	INT	NULL	COMMENT '타자/사구',
 	`sf`	INT	NULL	COMMENT '타자/희생플라이',
 	`ip`	DECIMAL(4,1)	NULL	COMMENT '투수/이닝 수',
 	`er`	INT	NULL	COMMENT '투수/자책점',
