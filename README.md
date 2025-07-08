@@ -1,13 +1,16 @@
 # 🎯 야구 구단 선수 관리 및 경영 시스템
 
 <h3><a href="https://dbr.donga.com/article/view/1203/article_no/9397">📌 전통적인 야구의 한계</a></h3>
+<hr>
  <img src="/docs/news1.png"/>
  
 <h3><a href="https://www.mk.co.kr/news/it/10878357">⚾ 실제 사례: LG 트윈스, 29년 만의 우승 비결은?</a></h3>
+<hr>
  <img src="/docs/news2.png"/>
 선수단의 결실, 팬들의 열정 그리고 그 뒤에는 데이터 야구가 있었다.
 
 <h3><a href="https://www.mk.co.kr/news/it/10878357">📊 또 다른 예: NC 다이노스 1위의 숨은 공신</a></h3>
+<hr>
  <img src="/docs/news3.png"/>
 
 구단주는 “데이터로 판단하라”
