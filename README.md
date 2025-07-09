@@ -86,6 +86,9 @@
 [테이블 정의서](https://docs.google.com/spreadsheets/d/1Q1egMS5cPVRtyZelnnXaTjeVe6Mj0uGjum8gsACMbF0/edit?usp=sharing)
 
 ## 🗺️ ER 다이어그램
+
+<img width="1483" height="922" alt="Image" src="https://github.com/user-attachments/assets/1436b10e-3efc-47ab-9513-36b42d02b6f1" />
+
 [ERD](https://www.erdcloud.com/d/6bK3fAS6haQqzajzX)
 
 ## 🔧 기술 스택
