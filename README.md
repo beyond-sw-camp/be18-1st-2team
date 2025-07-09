@@ -97,12 +97,26 @@
 
 ## 🗂️ 프로젝트 구조
 
+📁 JJMYS
+
+  ├── 📂 Docs (문서자료, 자료 이미지)
+
+  ├── 📂 DDL (테이블 생성 관련 쿼리문)
+
+  ├── 📂 DML (샘플 데이터 입력 쿼리문)
+
+  ├── 📂 Trigger (트리거 관련 쿼리문)
+
+  ├── 📂 Test_query (오류 검증을 위한 테스트 쿼리문)
+
+  ├── 📝 .gitignore
+
+  └── 📝 README.md 
+
 ## 테스트케이스
 
-<strong>사용자</strong>
+<strong>👨‍💻 사용자</strong>
 
-<details>
-  <summary>👨‍💻 사용자</summary>
   <details>
     <summary>회원관리</summary> 
     <details>
@@ -136,12 +150,8 @@
     <br>
     <summary>비밀번호 찾기</summary> <img width="480" height="217" alt="Image" src="https://github.com/user-attachments/assets/76d1791d-fc73-4c2c-b171-684bb890cdeb" />
   </details>
-</details>
 
-<strong>경기</strong>
-
-<details>
-  <summary>👊 경기</summary>
+  <strong>👊 경기</strong>
     <details>
       <br>
       <summary>경기 등록</summary> <img width="1086" height="320" alt="Image" src="https://github.com/user-attachments/assets/57dbd5f7-6db6-4865-8498-54dce0b03410" />
@@ -165,12 +175,10 @@
       <br>
       경기 투수 기록 조회 <img width="911" height="600" alt="Image" src="https://github.com/user-attachments/assets/7db8a8e7-c9f5-4c8c-b01b-b4fc8050d562" />
     </details>
-</details>
 
-<strong>팀</strong>
 
-<details>
-  <summary>🧑‍🤝‍🧑 팀</summary>
+<strong>🧑‍🤝‍🧑 팀</strong>
+
   <details>
     <br>
     <summary>팀 정보 등록</summary> <img width="751" height="328" alt="Image" src="https://github.com/user-attachments/assets/7a8079d2-a913-4e25-9549-b7341b32a111" />
@@ -205,12 +213,9 @@
   <img width="578" alt="시즌별 성적 이미지" src="https://github.com/user-attachments/assets/3959b389-7d1a-42db-931b-c273f3659761" />
   <br>
   </details>
-</details>
 
-<strong>선수</strong>
+<strong>🏃 선수</strong>
 
-<details>
-  <summary>🏃 선수</summary>
   <details>
     <br>
     <summary>선수 정보 등록</summary> <img width="1197" height="246" alt="Image" src="https://github.com/user-attachments/assets/5d85dcda-65bb-4e95-969d-045dfff82812" />
@@ -246,7 +251,6 @@
   <p><strong>투수 시즌별 지표 기록 조회</strong></p>
   <img src="https://github.com/user-attachments/assets/cefff87d-452e-4a3b-b9fa-1a17c23c48fd" width="700"/>
 
-</details>
   <details>
     <br>
     <summary>선수 계약</summary> <img width="727" height="401" alt="Image" src="https://github.com/user-attachments/assets/c3565ce3-e752-4e1e-a885-9b49bbacc15f" />
@@ -262,10 +266,9 @@
   </details>
 </details>
 
-<strong>스태프</strong>
+<strong>👨🏻‍🏫 스태프</strong>
 
-<details>
-    <summary>👨🏻‍🏫 스태프</summary>
+
   <details>
     <summary>스태프 정보 등록</summary>
     <br>
@@ -292,4 +295,4 @@
     <br> <br>
      <p>📌 <strong>재직 중인 경력 10년차 이상 LG 스태프 조회</strong></p>  <img width="502" height="516" alt="Image" src="https://github.com/user-attachments/assets/8b03493f-4d70-41fc-a269-33f8a7c6b03c" />
   </details>
-</details>
+
