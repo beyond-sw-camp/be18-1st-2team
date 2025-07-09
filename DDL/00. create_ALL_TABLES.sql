@@ -74,7 +74,8 @@ CREATE TABLE `player` (
   `weight` INT COMMENT '몸무게',
   `absence` VARCHAR(30) COMMENT '부재사유',
   PRIMARY KEY (`player_id`),
-  UNIQUE KEY (`phone`), -- 팀명 중복금지
+  UNIQUE KEY (`phone`), -- 전화번호 중복금지
+  UNIQUE KEY `unique_number` (`player_id`, `team_id`, `number`),	-- 한 팀에서 등번호 중복금지
   CONSTRAINT `FK_player_team` FOREIGN KEY (`team_id`) REFERENCES `team` (`team_id`)
 );
 

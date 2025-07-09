@@ -1,33 +1,6 @@
 -- game_record_detail 타자 관련 데이터
-INSERT INTO game_record_detail (
-game_detail_id, 
-player_id, 
-game_id, 
-season,
-ab,
-hit,
-`1b`,
-`2b`,
-`3b`,
-hr,
-rbi,
-hitter_so,
-hitter_bb,
-hbp,
-sf,
-ip,
-er,
-pitcher_h,
-pitcher_so,
-pitcher_bb,
-win,
-lose,
-save,
-`error`, 
-assist,
-po,
-sb,
-cs
+INSERT INTO game_record_detail (game_detail_id, player_id, game_id, season, ab, hit, `1b`, `2b`, `3b`, hr, rbi, hitter_so, hitter_bb, hbp, sf,
+											ip, er, pitcher_h, pitcher_so, pitcher_bb, win, lose, save, `error`, assist, po, sb, cs
 ) VALUES
 -- 각각 3009, 3002, 4201번 선수의 총 6개 데이터 (2022년 시즌 2경기 3001,3002 / 2023년 시즌 2경기 4001,4002 / 2024년 시즌 2경기 5001,5002)
 (1,  3009, 3001, 2022, 3, 1, 0, 1, 0, 0, 0, 0, 2, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 2, 0, 0),
@@ -50,35 +23,8 @@ cs
 (18, 4201, 5002, 2024, 4, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 1, 1, 0);
 
 -- game_record_detail 투수 관련 데이터
-INSERT INTO game_record_detail (
-game_detail_id, 
-player_id, 
-game_id, 
-season,
-ab,
-hit,
-`1b`,
-`2b`,
-`3b`,
-hr,
-rbi,
-hitter_so,
-hitter_bb,
-hbp,
-sf,
-ip,
-er,
-pitcher_h,
-pitcher_so,
-pitcher_bb,
-win,
-lose,
-save,
-`error`, 
-assist,
-po,
-sb,
-cs
+INSERT INTO game_record_detail (game_detail_id, player_id, game_id, season, ab, hit, `1b`, `2b`, `3b`, hr, rbi, hitter_so, hitter_bb, hbp, sf,
+											ip, er, pitcher_h, pitcher_so, pitcher_bb, win, lose, save, `error`, assist, po, sb, cs
 ) VALUES
 -- 각각 4207, 3002, 4201번 선수의 총 6개 데이터 (2022년 시즌 2경기 3001,3002 / 2023년 시즌 2경기 4001,4002 / 2024년 시즌 2경기 5001,5002)
 (19, 4001, 3001, 2022, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1.0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
