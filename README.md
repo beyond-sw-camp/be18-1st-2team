@@ -92,6 +92,32 @@
 [ERD](https://www.erdcloud.com/d/6bK3fAS6haQqzajzX)
 
 ## 🔧 기술 스택
+<table>
+ <thead>
+    <tr align="center">
+      <th>로고</th>
+      <th>기술명</th>
+      <th>상세설명</th>
+    </tr>
+  </thead>
+ <tbody>
+  <tr>
+   <td> <img src="https://rastalion.dev/wp-content/uploads/2019/05/CxvR4Rax_400x400.jpg" width="50px" height = "50px"/></td>
+   <td>MariaDB</td>
+   <td>프로젝트에서 사용된 관계형 DBMS로, 사용자 및 게시글 데이터를 SQL 기반으로 저장/관리</td>
+  </tr>
+   <tr>
+   <td> <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/HeidiSQL_logo_image.png" width="50px" height = "50px"/></td>
+   <td>HeidiSQL</td>
+   <td>MariaDB를 시각적으로 관리하고, 데이터 조회·쿼리 실행·테이블 수정 등을 GUI로 수행</td>
+  </tr>
+   <tr>
+   <td> <img src="https://blog.kakaocdn.net/dna/unW26/btrPSZYKyc6/AAAAAAAAAAAAAAAAAAAAAA1KH9yFug_3lG0H-DwdoTpupsWd_0dH_FPrRiBrLJrS/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=uHJekQAhiZXO1JbbBTnarPnOy0c%3D" width="50px" height = "50px"/></td>
+   <td>ERDCloud</td>
+   <td>데이터베이스 초기 설계 단계에서 테이블 관계(ERD) 시각화 및 팀원과 구조 공유</td>
+  </tr>
+ </tbody>
+</table>
 
 ## 🌟 주요 기능
 
@@ -300,7 +326,7 @@
 
 <table>
   <tr>
-    <td>김민주</td>
+    <td>김민준</td>
     <td></td>
   </tr>
   <tr>
