@@ -295,4 +295,28 @@
     <br> <br>
      <p>📌 <strong>재직 중인 경력 10년차 이상 LG 스태프 조회</strong></p>  <img width="502" height="516" alt="Image" src="https://github.com/user-attachments/assets/8b03493f-4d70-41fc-a269-33f8a7c6b03c" />
   </details>
+  
+## 📝 프로젝트 회고
 
+<table>
+  <tr>
+    <td>김민주</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>박종원</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>박진우</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>윤석현</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>최유경</td>
+    <td></td>
+  </tr>
+</table>
