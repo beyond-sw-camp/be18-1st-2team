@@ -22,11 +22,14 @@ BEGIN
 
     -- 2. 역할별 정책 분기
     IF NEW.role = '감독' THEN
-    SELECT COUNT(*) INTO existing_same_person
+    SELECT COUNT(*) INTO coach_count
     FROM staff
-    WHERE resignation_date IS NULL;
+    WHERE resignation_date IS NULL
+	 AND  NEW.resignation_date IS NULL 
+	 AND team_id = NEW.team_id
+	 AND `role` = '감독';
     
-    if existing_same_person > 0 THEN
+    if coach_count > 0 THEN
     	  SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = '감독이 이미 있습니다. 감독을 해고처리 하하세요.';
     END IF;

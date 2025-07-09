@@ -1,7 +1,8 @@
 INSERT INTO staff (staff_id, team_id, role, staff_name, phone, career, hire_date, resignation_date) VALUES
 -- 감독
-(1, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '감독', '염경엽', '010-1111-0001', '20년', '2022-11-13', NULL),
+(1, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '감독', '염경엽', '010-1111-0001', '20년', '2022-11-13', NULL);
 
+INSERT INTO staff (staff_id, team_id, role, staff_name, phone, career, hire_date, resignation_date) VALUES
 -- 수석코치 및 작전/주루 코치
 (2, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '수석코치', '김정준', '010-1111-0002', '15년', '2023-01-01', NULL),
 (3, (SELECT team_id FROM team WHERE team_name = 'LG 트윈스'), '작전코치', '윤진호', '010-1111-0003', '10년', '2022-01-01', NULL),
