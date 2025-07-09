@@ -24,7 +24,7 @@ CREATE TABLE `permission` (
 
 -- user 테이블 (사용자)
 CREATE TABLE `user` (
-  `user_id` INT NOT NULL COMMENT '사용자 ID',
+  `user_id` INT NOT NULL AUTO_INCREMENT COMMENT '사용자 ID',
   `name` VARCHAR(20) NOT NULL COMMENT '사용자명',
   `password` VARCHAR(30) NOT NULL COMMENT '비밀번호',
   `email` VARCHAR(30) COMMENT '이메일',
@@ -137,7 +137,7 @@ CREATE TABLE `game_record_detail` (
 	`game_detail_id`	INT	NOT NULL AUTO_INCREMENT	COMMENT '경기 기록 ID',
 	`player_id`	INT	NOT NULL	COMMENT '선수 ID',
 	`game_id`	INT	NOT NULL	COMMENT '경기 ID',
-	`season`	YEAR	NULL	COMMENT '시즌연도',
+	`season`	YEAR	NOT NULL	COMMENT '시즌연도',
 	`ab`	INT	NULL	COMMENT '타자/타수',
 	`hit`	INT	NULL	COMMENT '타자/안타 수',
 	`1b`	INT	NULL	COMMENT '타자/1루타',
@@ -172,7 +172,7 @@ CREATE TABLE `game_record_detail` (
 CREATE TABLE `player_record` (
   `player_record_id` INT NOT NULL AUTO_INCREMENT COMMENT '선수기록 ID',
   `player_id` INT NOT NULL COMMENT '선수 ID',
-  `season` YEAR COMMENT '시즌연도',
+  `season` YEAR NOT NULL COMMENT '시즌연도',
   `era` DECIMAL(4,2) COMMENT '평균자책점',
   `whip` DECIMAL(4,2) COMMENT 'WHIP',
   `avg` DECIMAL(4,3) COMMENT '타율',
@@ -190,7 +190,7 @@ CREATE TABLE `player_record` (
 CREATE TABLE `player_record_detail` (
 	`player_record_detail_id`	INT	NOT NULL AUTO_INCREMENT	COMMENT '선수 기록 상세정보ID',
 	`player_id`	INT	NOT NULL	COMMENT '선수 ID',
-	`season`	YEAR	NULL	COMMENT '시즌연도',
+	`season`	YEAR	NOT NULL	COMMENT '시즌연도',
 	`games` INT NULL COMMENT '참여게임',
 	`ab`	INT	NULL	COMMENT '타자/타수',
 	`hit`	INT	NULL	COMMENT '타자/안타 수',
@@ -225,7 +225,7 @@ CREATE TABLE `player_record_detail` (
 CREATE TABLE `team_record` (
   `team_record_id` INT NOT NULL AUTO_INCREMENT COMMENT '팀 성적 ID',
   `team_id` INT NOT NULL COMMENT '팀 ID',
-  `season` YEAR COMMENT '시즌',
+  `season` YEAR NOT NULL COMMENT '시즌',
   `game_count` INT COMMENT '경기수',
   `win_count` INT COMMENT '승',
   `draw_count` INT COMMENT '무',
