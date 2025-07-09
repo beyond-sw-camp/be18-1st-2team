@@ -119,6 +119,14 @@
  </tbody>
 </table>
 
+## 🤔 실행방법 
+
+<strong>1. DDL 폴더에 있는 00. create_ALL_TABLES.sql 실행</strong>
+
+<strong>2. Trigger 폴더에 있는 00. trg_ALL_TABLES.sql 실행</strong>
+
+<strong>3. DML 폴더에 있는 00. insert_ALL_TABLES.sql 실행</strong>
+
 ## 🌟 주요 기능
 
 ## 🗂️ 프로젝트 구조
